@@ -1,0 +1,30 @@
+$primary-color: blue;
+$secondary-color: red;
+
+.UserMaster {
+    width: 80%;
+    background-color: rgb(243, 218, 218);
+    padding: 20px;
+    height: 90%;
+    border-radius: 10px;
+
+    .userHeadingContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .filter {
+        padding-top: 20px;
+    }
+
+    .TableContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        height: 320px;
+    }
+
+}

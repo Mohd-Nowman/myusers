@@ -1,0 +1,23 @@
+.table-container{
+    tr{
+        height: 35px;
+    }
+}
+.table-body-container {
+    display: flex;
+    justify-content: center;
+    max-height: 280px;
+    overflow-y: auto;
+
+    table {
+        width: 100%;
+
+        tbody {
+            tr {
+                td {
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
